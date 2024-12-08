@@ -1,0 +1,28 @@
+
+.testimonals{
+    width: 100%;
+    padding: 9.625rem 2.5rem 10rem 2.5rem ;
+    background-color:  var(--background-light-gray);
+    text-align: center;
+}
+.testimonals h1{
+    font-size: 48px;
+    line-height: 48px;
+    color: white;
+    margin-bottom: 5.625rem;
+}
+.testimonals span{
+    color: var(--logo-color);
+}
+/* embla */
+.embla{
+    overflow: hidden;
+}
+.embla__container{
+    display: flex;
+}
+@media(max-width:390px){
+    .testimonals{
+        padding: 10rem 1rem 10rem 1rem ;
+    }
+}

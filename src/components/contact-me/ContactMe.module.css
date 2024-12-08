@@ -1,0 +1,113 @@
+
+.contactMe{
+    width: 100%;
+    background-color: black;
+    padding: 9.625rem 9.1875rem 10rem 9.1875rem;
+    text-align: center;
+}
+.contactMe h1{
+    font-size: 3rem;
+    line-height: 3rem;
+    color: white;
+    margin-bottom: 1.125rem;
+}
+.contactMe span{
+      color: var(--logo-color);
+}
+.contactMe  p{
+    color: #8f8d8d;
+    font-size: 16.73px;
+    line-height: 1.75rem;
+    margin-bottom: 6rem;
+}
+.contactMeBottomDiv{
+    width: 100%;
+    display: flex;
+    gap: 120px;
+    margin: auto;
+}
+.contactLeftDiv{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.contactLeftDivContainer{
+         display: flex;
+         gap: 16px;
+
+}
+.contactLeftDivText{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 8px;
+}
+.contactLeftDivText :nth-child(1){
+    color: white;
+}
+.contactLeftDivText :nth-child(2){
+    color:#8f8d8d ;
+}
+.contactLeftDivText :nth-child(3){
+    color: var(--logo-color);
+}
+.contactRightDiv{
+     width: 650px;
+    
+}
+.contactRightDiv form{
+    width: 100%;
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+}
+.topinputDiv{
+    width: 100%;
+    display: flex;
+    gap: 8px;
+}
+.topinputDiv input{
+    width: 320px;
+    color: #8f8d8d;
+}
+.inputdetails{
+     padding: 15px 0 15px 12px; 
+     font-size: 15px;
+     background-color: #333333;
+     border-radius: 8px;
+     color: #8f8d8d;
+     border: 1px solid #8f8d8d ;
+}
+.inputBtn{
+    background-color:#776856;
+    width: 178px;
+    height: 52px;
+    border-radius: 8px;
+    cursor: pointer;
+    &:hover{
+        background-color: #6e4b2b;
+    }
+}
+@media(max-width:768px){
+    .contactMeBottomDiv{
+        
+       flex-direction: column;
+        gap: 80px;
+    }
+    .contactMe{
+       
+    padding: 160px 32px 160px 32px;
+        
+    }
+}
+@media(max-width:390px){
+ .contactRightDiv{
+    width: 100%;
+ }
+ .topinputDiv{
+    flex-direction: column;
+    gap: 25px;
+ }
+  
+}

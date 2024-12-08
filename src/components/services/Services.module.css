@@ -1,0 +1,38 @@
+.services{
+    width: 100%;
+    background-color: #8f8d8d;
+    padding: 6.875rem 2.5rem 10rem 2.5rem;
+    text-align: center;
+}
+.services h1{
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
+    color: black;
+
+}
+.services span{
+     color: var(--logo-color);
+}
+.services p{
+    font-size:1.125rem ;
+    line-height: 1.75rem;
+    margin-bottom: 80px;
+    color: black;
+}
+.servicescardDiv{
+    width: 100%;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+}
+@media(max-width:768px){
+    .servicescardDiv{
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+@media(max-width:390px){
+    .servicescardDiv{
+        grid-template-columns: repeat(1, 1fr)
+    }
+}
