@@ -18,7 +18,7 @@ function PortfolioCard() {
             <Link href={item.href}>
             <div className={styles.cardImage}>
 
-              {item.type == "image" ? (<Image src={item.src} alt={"my pic"} width={350} height={350} className={styles.img}></Image>)
+              {item.type == "image" ? (<Image src={item.src} alt={"my pic"} width={350} height={350} className={styles.Image}></Image>)
                 : (
                   <video src={item.src} autoPlay loop muted controls ></video>
                 )}

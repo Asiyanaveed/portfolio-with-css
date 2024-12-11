@@ -29,7 +29,7 @@ function AboutSection() {
         initial={{opacity:0, x:100}}
         whileInView={{opacity:1, x:50}}
         transition={{duration:2, type:"spring"}}>
-            <Image className={styles.Image} src={"/portfolio-pics/Asiya.jpg"} alt={"my pic"} width={400} height={400} className={styles.img}></Image>
+            <Image  src={"/portfolio-pics/Asiya.jpg"} alt={"my pic"} width={400} height={400} className={styles.img}></Image>
         </motion.div>
       </section>
     </div>
