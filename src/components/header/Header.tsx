@@ -3,9 +3,9 @@ import React, { useState } from 'react'
 import styles from './Header.module.css'
 import { caveatFont, interFont } from '@/font'
 import Link from 'next/link'
-import { TiThMenu } from "react-icons/ti";
-import { IoMdCloseCircle } from "react-icons/io";
+import { IoMdCloseCircle } from 'react-icons/io';
 import { AnimatePresence, motion } from 'framer-motion';
+import { TiThMenu } from 'react-icons/ti'
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -26,7 +26,9 @@ function Header() {
                 exit={{ opacity: 0, width: 0 }}
                 transition={{ duration: 0.2 }}
               >
-                <IoMdCloseCircle size={30} className={styles.close} onClick={() => setIsOpen(false)}/>
+                <div className={styles.close} onClick={() => setIsOpen(false)}>
+                    <IoMdCloseCircle size={30} />
+                </div>
 
                 <li><Link href={"/"}>Home </Link></li>
                 <li><Link href={"#about"}>About</Link></li>
@@ -48,8 +50,10 @@ function Header() {
                 </ul>
               )}
           </AnimatePresence>
-
-          <TiThMenu size={30} className={styles.menu} onClick={() => { setIsOpen(!isOpen) }} />
+              <div className={styles.menu} onClick={() => { setIsOpen(!isOpen) }}>
+                 <TiThMenu size={30}/>
+              </div>
+           
         </nav>
       </header>
     </>

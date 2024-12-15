@@ -3,14 +3,11 @@ import React from 'react'
 import styles from './HeroSection.module.css'
 import { interFont } from '@/font'
 import Button from '../button/Button'
-import { FaFacebookF } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa6";
-import { FaWhatsapp } from "react-icons/fa6";
-import { FaTelegramPlane } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTelegramPlane, FaWhatsapp } from 'react-icons/fa';
 import Image from 'next/image';
 import {motion} from 'framer-motion';
 import { Typewriter } from 'react-simple-typewriter'
+import { FaXTwitter } from 'react-icons/fa6'
 
 
 function HeroSection() {
