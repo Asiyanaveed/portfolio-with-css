@@ -15,12 +15,10 @@ function AboutSection() {
         whileInView={{opacity:1 ,x:0,}}
         transition={{duration:2, type:"spring"}}>
             <h1 className={caveatFont.className}>Asiya Naveed</h1>
-            <p className={caveatFont.className}>Freelance  Web development</p>
-            <h2 className={`${styles.h2text}  ${interFont.className}`}> Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Unde possimus aliquam aspernatur laborum maxime 
-                expedita consequatur nobis, id itaque quisquam.Unde possimus
-                aliquam aspernatur laborum maximexpedita consequatur
-                 nobis, id itaque quisquam
+            <p className={caveatFont.className}>FrontEnd  Web developer</p>
+            <h2 className={`${styles.h2text}  ${interFont.className}`}>As a frontend web developer, I specialize in creating user-friendly,
+             responsive, and visually appealing web interfaces. My expertise lies in turning designs into functional, high-performance websites.
+              I focus on clean code and seamless user experiences. Passionate about modern web technologies, I bring ideas to life online
             </h2>
             <Button text={'Contact Me'}/>
         </motion.div>

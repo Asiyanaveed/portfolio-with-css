@@ -18,8 +18,9 @@ function Services() {
           <span>C</span>lients
         </h1>
 
-        <p className={interFont.className}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates tempore suscipit dolorum <br />
-          assumenda exercitationem expedita a totam fugit, ipsa quam!</p>
+        <p className={interFont.className}> I design and develop responsive, visually engaging websites tailored to client needs. By turning ideas into functional
+           and user-friendly interfaces, I ensure seamless user experiences. I focus on clean code, performance optimization, and modern design trends.
+            My goal is to deliver web solutions that elevate your brand.</p>
 
         <div className={styles.servicescardDiv}>
          <ServicesCard/>
